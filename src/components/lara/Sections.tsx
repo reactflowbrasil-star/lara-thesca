@@ -60,11 +60,8 @@ export function Looks() {
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           {looks.map((look, i) => (
-            <Reveal
-              key={look.id}
-              delay={i * 90}
-              className={i % 2 === 1 ? "md:translate-y-16" : undefined}
-            >
+            <Reveal key={look.id} delay={i * 90} className={i % 2 === 1 ? "md:translate-y-16" : ""}>
+
               <article className="group">
                 <div className="relative overflow-hidden rounded-2xl">
                   <img
