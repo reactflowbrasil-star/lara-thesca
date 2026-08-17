@@ -25,8 +25,14 @@ export function Nav() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-10">
-        <a href="#top" className="text-editorial text-xl tracking-tight md:text-2xl">
-          Lara <span className="italic text-primary">Thesca</span>
+        <a href="#top" className="flex items-center">
+          <img
+            src="https://growmoneydigital.com.br/alexandre/logolara.png"
+            alt="Lara Thesca"
+            width={140}
+            height={40}
+            className="h-8 w-auto md:h-10"
+          />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

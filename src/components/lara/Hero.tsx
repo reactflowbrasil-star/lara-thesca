@@ -73,19 +73,15 @@ export function Hero() {
           </p>
         </div>
 
-        <div className="relative">
-          <div
-            className="relative overflow-hidden rounded-[2rem] border border-border bg-secondary shadow-[var(--shadow-editorial)]"
+        <div className="relative flex items-end justify-center">
+          <img
+            src={HERO_IMAGE}
+            alt="Lara Thesca em retrato editorial com maquiagem artística"
+            width={900}
+            height={1200}
+            className="h-[26rem] w-auto object-contain object-bottom drop-shadow-2xl sm:h-[34rem] md:h-[40rem]"
             style={{ transform: `translateY(${-offset}px)` }}
-          >
-            <img
-              src={HERO_IMAGE}
-              alt="Lara Thesca em retrato editorial com maquiagem artística"
-              width={900}
-              height={1200}
-              className="h-[26rem] w-full object-cover object-top sm:h-[34rem] md:h-[40rem]"
-            />
-          </div>
+          />
           <span className="absolute -left-3 top-6 -rotate-6 rounded-full bg-primary px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-primary-foreground shadow-lg">
             editorial nº 01
           </span>
